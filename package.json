@@ -1,0 +1,28 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "description": "teste-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/server.js"
+  },
+  "author": "Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "install": "^0.13.0",
+    "lodash": "^4.17.15",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.0",
+    "nodejs": "0.0.0",
+    "pg": "^4.5.7",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.0",
+    "sequelize": "^3.35.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
