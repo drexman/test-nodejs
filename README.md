@@ -108,3 +108,29 @@ saída:
 ]
 ```
 Obs: É necessário uso do ferramenta postman para realizar os testes dos seriços
+
+
+# Sistema Operacional #
+
+Windows 10 (64 bits) 
+
+# Editor de texto/IDE #
+
+Visual Studio Code 1.41.1
+
+# bibliotecas utilizados #
+
+ * csv-parser v 2.3.2
+ * express" v 4.17.1",
+ * express-session v 1.17.0
+ * lodash": v 4.17.15
+ * multer": v 1.4.2,
+ * node-fetch v 2.6.0
+ * pg v 4.5.7
+ * pg-hstore v 2.3.3
+ * request v 2.88.0
+ * sequelize v 3.35.1
+
+
+
+
