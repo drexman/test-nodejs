@@ -118,7 +118,7 @@ Windows 10 (64 bits)
 
 Visual Studio Code 1.41.1
 
-# bibliotecas utilizados #
+# Bibliotecas utilizados #
 
  * csv-parser v 2.3.2
  * express" v 4.17.1",
