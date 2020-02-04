@@ -29,7 +29,7 @@ module.exports = (sequelize, type) => {
 
         data_send:{
             type: type.DATE,
-            defaultValue: type.Now    
+            defaultValue: type.NOW        
         }
 
     }); 
