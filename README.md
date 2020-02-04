@@ -130,7 +130,8 @@ Visual Studio Code 1.41.1
  * pg-hstore v 2.3.3
  * request v 2.88.0
  * sequelize v 3.35.1
-
+ * swagger-jsdoc v 1.3.0
+ * swagger-ui-express v 4.1.3
 
 
 
