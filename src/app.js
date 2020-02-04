@@ -23,10 +23,7 @@ const swaggerOptions = {
       title: 'API',
       version: '1.0.0',
       description: 'API REST HTTP',
-      license: {
-        name: "MIT",
-        url: "https://choosealicense.com/licenses/mit/"
-      },
+     
       contact : {
         name: "Samuel Toshikazu Oizume"
       }
