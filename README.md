@@ -18,8 +18,9 @@ Para inicialização do API:
 Primeiramente, será necessário acessar no diretório do arquivo(diretório/test-nodejs).
 
 Executar seguinte comando: 
+```
 npm start
-
+```
 
 
 Para as acessar todos os serviços do API, os urls dos serviços são:
@@ -28,9 +29,10 @@ POST método do recebimento de arquivos http://localhost:3000/fileuser/upload
 Obs: Aceita multi-part.
 
 entrada:
+```
 form-data
 KEY: files VALUE: DonaldTrump_xpto123.csv
-
+```
 saída:
 conteúdo json 
 
@@ -45,44 +47,51 @@ conteúdo json
 PUT atualização do cliente  http://localhost:3000/customer/{código-usuario}
 
 entrada:
+```
 raw JSON
 
 {
     "_id": 1,
     "name": "Valor alterado"
 }
-
+```
 saída:
+```
 {
     "_id": 1,
     "name": "Valor alterado",
     "date_sent": "2019-10-11 13:30:20",
     "status": "update_info"
 }
-
+```
 
 DELETE remoção do cliente http://localhost:3000/customer/{código-usuario}
 
 entrada:
+```
 raw JSON
+
 {
     "_id": {código-cliente}
 }
+```
 
 saída:
+```
 {
     "_id": 1,
     "data_send": "2019-10-11 13:30:20",
     "name": "James Bond",
     "status": "deleted"
 }
-
+```
 DELETE remoção do usuário e todos os registros vinculados http://localhost:3000/fileuser/{código-usuario}
 
 entrada:
 sem conteúdo
 
 saída:
+```
 [
     {
         "_id": 1,
@@ -97,5 +106,5 @@ saída:
         "status": "deleted"
     }
 ]
-
+```
 Obs: É necessário uso do ferramenta postman para realizar os testes dos seriços
